@@ -11,6 +11,18 @@ Summary: Amazon Web Services SDK for Python
 
 Boto3 makes it easy to integrate you Python application, library or script with AWS services. It allows Python developers to write softare that makes use of services like Amazon S3 and Amazon EC2.
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/boto3-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/boto3-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/boto3-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/boto3-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/boto3-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/boto3-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/boto3/badges/version.svg)](https://anaconda.org/conda-forge/boto3)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/boto3/badges/downloads.svg)](https://anaconda.org/conda-forge/boto3)
+
 Installing boto3
 ================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `boto3` available on your platform
 ```
 conda search boto3 --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/boto3-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/boto3-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/boto3-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/boto3-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/boto3-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/boto3-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/boto3/badges/version.svg)](https://anaconda.org/conda-forge/boto3)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/boto3/badges/downloads.svg)](https://anaconda.org/conda-forge/boto3)
 
 
 Updating boto3-feedstock
