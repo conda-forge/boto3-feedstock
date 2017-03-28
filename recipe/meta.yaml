@@ -38,8 +38,7 @@ about:
   home: http://aws.amazon.com/sdk-for-python/
   dev_url: https://github.com/boto/boto3
   doc_url: https://boto3.readthedocs.org
-  license: MIT
-  license_family: MIT
+  license: Apache 2.0
   license_file: LICENSE
   summary: Amazon Web Services SDK for Python
   description: Boto3 makes it easy to integrate you Python application, library or script
