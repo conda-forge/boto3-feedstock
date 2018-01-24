@@ -1,4 +1,4 @@
-{% set name = "boto3 "%}
+{% set name = "boto3" %}
 {% set version = "1.5.14" %}
 {% set sha256 = "f1d5870a0ca4bcacaea02ca338e7761777340a56b09d2fe3c03194b84ce0cb57" %}
 {% set build = 2 %}
