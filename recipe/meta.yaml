@@ -1,7 +1,6 @@
 {% set name = "boto3" %}
 {% set version = "1.6.4" %}
 {% set sha256 = "c38d9c074c33f73367e1ed7798519be4c2748dad3c05c7bea424a59ae7f16249" %}
-{% set build = 0 %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: {{ build }}
+  number: 0
   noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
