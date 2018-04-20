@@ -14,12 +14,15 @@ Boto3 makes it easy to integrate you Python application, library or script with 
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/boto3-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/boto3-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/boto3-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/boto3-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/boto3/badges/version.svg)](https://anaconda.org/conda-forge/boto3)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/boto3/badges/downloads.svg)](https://anaconda.org/conda-forge/boto3)
+[![Conda Recipe](https://img.shields.io/badge/recipe-boto3-green.svg)](https://anaconda.org/conda-forge/boto3)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/boto3.svg)](https://anaconda.org/conda-forge/boto3)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/boto3.svg)](https://anaconda.org/conda-forge/boto3)
+[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/boto3.svg)](https://anaconda.org/conda-forge/boto3)
 
 Installing boto3
 ================
