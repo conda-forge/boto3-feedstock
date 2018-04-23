@@ -19,10 +19,10 @@ All platforms:
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-boto3-green.svg)](https://anaconda.org/conda-forge/boto3)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/boto3.svg)](https://anaconda.org/conda-forge/boto3)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/boto3.svg)](https://anaconda.org/conda-forge/boto3)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/boto3.svg)](https://anaconda.org/conda-forge/boto3)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-boto3-green.svg)](https://anaconda.org/conda-forge/boto3) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/boto3.svg)](https://anaconda.org/conda-forge/boto3) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/boto3.svg)](https://anaconda.org/conda-forge/boto3) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/boto3.svg)](https://anaconda.org/conda-forge/boto3) |
 
 Installing boto3
 ================
