@@ -1,6 +1,6 @@
 {% set name = "boto3" %}
-{% set version = "1.7.16" %}
-{% set sha256 = "3dc4d47d2adc5463afd05124d8e612ecb3da8253b8e95b61d7c4f50762ab976a" %}
+{% set version = "1.7.17" %}
+{% set sha256 = "7381410ec44a8c7833522eab5b03c7ebc1692dedbcb0981a61f3142b5d69b1b7" %}
 
 package:
   name: {{ name|lower }}
@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python
-    - botocore >=1.10.16,<1.11.0
+    - botocore >=1.10.17,<1.11.0
     - jmespath >=0.7.1,<1.0.0
     - s3transfer >=0.1.10,<0.2.0
 
