@@ -9,7 +9,10 @@ Feedstock license: BSD 3-Clause
 
 Summary: Amazon Web Services SDK for Python
 
-Boto3 makes it easy to integrate you Python application, library or script with AWS services. It allows Python developers to write softare that makes use of services like Amazon S3 and Amazon EC2.
+Boto3 makes it easy to integrate you Python application, library or script
+with AWS services. It allows Python developers to write softare that makes
+use of services like Amazon S3 and Amazon EC2.
+
 
 Current build status
 ====================
