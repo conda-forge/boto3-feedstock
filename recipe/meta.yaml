@@ -1,6 +1,6 @@
 {% set name = "boto3" %}
-{% set version = "1.7.62" %}
-{% set sha256 = "474c2c3aa070a2dae9ecf9d14d974e726960539deec43707385e02cdedae2221" %}
+{% set version = "1.7.63" %}
+{% set sha256 = "6ab3147ae26399fc33b4af77491d1df985e0ebfd6fb64980d96ad33d91ba96ba" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
