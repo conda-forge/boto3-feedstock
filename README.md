@@ -1,7 +1,7 @@
 About boto3
 ===========
 
-Home: http://aws.amazon.com/sdk-for-python/
+Home: https://aws.amazon.com/sdk-for-python
 
 Package license: Apache 2.0
 
