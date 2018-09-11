@@ -1,20 +1,17 @@
-{% set name = "boto3" %}
 {% set version = "1.9.1" %}
-{% set sha256 = "0115b91312737ee24b263c45573a7ab7def6e7fa22e4cd3814ef477ae811f6cd" %}
 
 package:
-  name: {{ name|lower }}
+  name: boto3
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/b/boto3/boto3-{{ version }}.tar.gz
+  sha256: 0115b91312737ee24b263c45573a7ab7def6e7fa22e4cd3814ef477ae811f6cd
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   host:
@@ -36,9 +33,7 @@ test:
     - boto3.s3
 
 about:
-  home: http://aws.amazon.com/sdk-for-python/
-  dev_url: https://github.com/boto/boto3
-  doc_url: https://boto3.readthedocs.org
+  home: https://aws.amazon.com/sdk-for-python
   license: Apache 2.0
   license_file: LICENSE
   license_family: Apache
@@ -55,3 +50,4 @@ extra:
   recipe-maintainers:
     - proinsias
     - tkelman
+    - ocefpaf
