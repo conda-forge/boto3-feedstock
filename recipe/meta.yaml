@@ -1,4 +1,4 @@
-{% set version = "1.9.9" %}
+{% set version = "1.9.10" %}
 
 package:
   name: boto3
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/b/boto3/boto3-{{ version }}.tar.gz
-  sha256: 675970103ca5eef49689bea0f8c2dcbc6d70da4fa1ceec2533f5f02c31089b04
+  sha256: a5001070a06d27cb98faa2750e3d750238fc542ea1a4a3b6d967041c221e280a
 
 build:
   number: 0
