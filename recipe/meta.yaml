@@ -1,4 +1,4 @@
-{% set version = "1.9.13" %}
+{% set version = "1.9.14" %}
 
 package:
   name: boto3
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/b/boto3/boto3-{{ version }}.tar.gz
-  sha256: 67e89880fceedab0dc922b42206affd19bc52dd8bc113e56e1354b40fff4f4ea
+  sha256: 1ae24968d87f5ee557814ee2980f262811bebaf747b57d08eaf8b8f12534fee7
 
 build:
   number: 0
@@ -19,7 +19,7 @@ requirements:
     - pip
   run:
     - python
-    - botocore >=1.12.13,<1.13.0
+    - botocore >=1.12.14,<1.13.0
     - jmespath >=0.7.1,<1.0.0
     - s3transfer >=0.1.10,<0.2.0
 
