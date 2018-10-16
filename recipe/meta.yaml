@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/b/boto3/boto3-{{ version }}.tar.gz
-  sha256: ff13a7a92e55c387c1dcdbe395f22de332cc9de12492ce5bc44199c2f5dc384a=======
+  sha256: ff13a7a92e55c387c1dcdbe395f22de332cc9de12492ce5bc44199c2f5dc384a
 
 build:
   number: 0
