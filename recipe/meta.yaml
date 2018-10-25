@@ -1,4 +1,4 @@
-{% set version = "1.9.30" %}
+{% set version = "1.9.31" %}
 {% set vmajor,vminor,vpatch = version.split('.') %}
 # ALWAYS DOUBLE-CHECK THESE OFFSETS AGAINST UPSTREAM setup.py
 {% set botocore_major = vmajor | int + 0 %}
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/b/boto3/boto3-{{ version }}.tar.gz
-  sha256: 3b782268ebf09ae6ea811ba8b8bdfc38a58d27f4f7fc554658f07c11ddc4165d
+  sha256: bc7b8e65b9612ee7ff03f71e765d0f380c8db096d898213bb4ead5b389c31cde
 
 build:
   number: 1
