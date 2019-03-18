@@ -21,8 +21,7 @@ use of services like Amazon S3 and Amazon EC2.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/boto3-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/boto3-feedstock)
+All platforms: ![noarch disabled](https://img.shields.io/badge/noarch-disabled-lightgrey.svg)
 
 Current release info
 ====================
