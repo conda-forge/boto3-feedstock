@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About boto3
 ===========
 
@@ -21,7 +17,14 @@ use of services like Amazon S3 and Amazon EC2.
 Current build status
 ====================
 
-All platforms: ![noarch disabled](https://img.shields.io/badge/noarch-disabled-lightgrey.svg)
+
+<table><tr>
+    <td>All platforms:</td>
+    <td>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
