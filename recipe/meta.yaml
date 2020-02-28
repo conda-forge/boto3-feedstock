@@ -1,5 +1,5 @@
-{% set version = "1.12.9" %}
-{% set hash = "acd8c19af1f82cfa011baed100f1659c1dc22daaeeec8d6db0567a4a1bfa103f" %}
+{% set version = "1.12.10" %}
+{% set hash = "65561a89339d8cc265a048560381b6771f9a06f4224e7741d0dc01808f5ba28f" %}
 
 {% set vmajor,vminor,vpatch = version.split('.') %}
 # ALWAYS DOUBLE-CHECK THESE OFFSETS AGAINST UPSTREAM setup.py
@@ -19,9 +19,9 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
