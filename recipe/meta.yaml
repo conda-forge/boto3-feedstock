@@ -44,7 +44,7 @@ test:
 
 about:
   home: https://aws.amazon.com/sdk-for-python
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: LICENSE
   license_family: Apache
   summary: Amazon Web Services SDK for Python
