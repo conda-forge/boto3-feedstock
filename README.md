@@ -3,11 +3,15 @@ About boto3
 
 Home: https://aws.amazon.com/sdk-for-python
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/boto3-feedstock/blob/master/LICENSE.txt)
 
 Summary: Amazon Web Services SDK for Python
+
+Development: https://github.com/boto/boto3
+
+Documentation: https://boto3.readthedocs.org
 
 Boto3 makes it easy to integrate you Python application, library or script
 with AWS services. It allows Python developers to write softare that makes
