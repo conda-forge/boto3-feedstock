@@ -1,5 +1,5 @@
-{% set version = "1.18.54" %}
-{% set hash = "2d81dc484020059fc738165984304107d4db1c6774b6310d08c892a1751f6980" %}
+{% set version = "1.18.55" %}
+{% set hash = "93a2b4b7bb5fd6e11b95ffe136040e9bd70e849482d7ba910fd196e8b33ebe2d" %}
 
 {% set vmajor,vminor,vpatch = version.split('.') %}
 # ALWAYS DOUBLE-CHECK THESE OFFSETS AGAINST UPSTREAM setup.py
