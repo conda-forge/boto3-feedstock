@@ -8,6 +8,7 @@
 {% set botocore_patch = vpatch | int + 0 %}
 {% set botocore_min = botocore_major ~ '.' ~ botocore_minor ~ '.' ~ botocore_patch %}
 {% set botocore_max = botocore_major ~ '.' ~ (botocore_minor + 1) ~ '.0' %}
+{% set botocore_bounds = '>=' ~ botocore_min ~ ',<' ~ botocore_max %}
 
 package:
   name: boto3
@@ -20,17 +21,17 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
-    - botocore >={{ botocore_min }},<{{ botocore_max }}
+    - python >=3.6
+    - botocore {{ botocore_bounds }}
     - jmespath >=0.7.1,<1.0.0
-    - s3transfer >=0.3.0,<0.4.0
+    - s3transfer >=0.5.0,<0.6.0
 
 test:
   imports:
@@ -43,7 +44,7 @@ test:
 
 about:
   home: https://aws.amazon.com/sdk-for-python
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: LICENSE
   license_family: Apache
   summary: Amazon Web Services SDK for Python
