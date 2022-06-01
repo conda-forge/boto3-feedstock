@@ -25,13 +25,13 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
     - botocore {{ botocore_bounds }}
     - jmespath >=0.7.1,<2.0.0
-    - s3transfer >=0.7.0,<0.7.0
+    - s3transfer >=0.6.0,<0.7.0
 
 test:
   imports:
