@@ -1,15 +1,6 @@
 {% set version = "1.26.42" %}
 {% set hash = "4cfd7e05e4033dbca2cc59bcfdafbdaef9d83dc3c0448917569b301d85766d9d" %}
 
-{% set vmajor,vminor,vpatch = version.split('.') %}
-# ALWAYS DOUBLE-CHECK THESE OFFSETS AGAINST UPSTREAM setup.py
-{% set botocore_major = vmajor | int + 0 %}
-{% set botocore_minor = vminor | int + 3 %}
-{% set botocore_patch = vpatch | int + 0 %}
-{% set botocore_min = botocore_major ~ '.' ~ botocore_minor ~ '.' ~ botocore_patch %}
-{% set botocore_max = botocore_major ~ '.' ~ (botocore_minor + 1) ~ '.0' %}
-{% set botocore_bounds = '>=' ~ botocore_min ~ ',<' ~ botocore_max %}
-
 package:
   name: boto3
   version: {{ version }}
