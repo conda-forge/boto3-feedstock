@@ -10,7 +10,7 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
@@ -32,6 +32,10 @@ test:
     - boto3.ec2
     - boto3.resources
     - boto3.s3
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://aws.amazon.com/sdk-for-python
