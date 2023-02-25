@@ -1,11 +1,11 @@
-About boto3
-===========
+About boto3-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/boto3-feedstock/blob/main/LICENSE.txt)
 
 Home: https://aws.amazon.com/sdk-for-python
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/boto3-feedstock/blob/main/LICENSE.txt)
 
 Summary: Amazon Web Services SDK for Python
 
