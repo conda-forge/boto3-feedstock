@@ -153,6 +153,5 @@ Feedstock Maintainers
 =====================
 
 * [@ocefpaf](https://github.com/ocefpaf/)
-* [@proinsias](https://github.com/proinsias/)
 * [@tkelman](https://github.com/tkelman/)
 
