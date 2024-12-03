@@ -10,17 +10,17 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - botocore >=1.35.73,<1.36.0
     - jmespath >=0.7.1,<2.0.0
     - s3transfer >=0.10.0,<0.11.0
@@ -37,6 +37,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://aws.amazon.com/sdk-for-python
