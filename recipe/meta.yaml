@@ -1,5 +1,5 @@
-{% set version = "1.37.2" %}
-{% set hash = "d64491bd4142c2c6dfe44479bf89c4ab7fa8d00210c2aaa7361931e61898b608" %}
+{% set version = "1.37.3" %}
+{% set hash = "21f3ce0ef111297e63a6eb998a25197b8c10982970c320d4c6e8db08be2157be" %}
 
 package:
   name: boto3
