@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/02/e9/f20bbfcdea28329fa07ee353b85bea375d89d854f98c240b12a8a08e3664/boto3-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/b/boto3/boto3-{{ version }}.tar.gz
   sha256: {{ hash }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
