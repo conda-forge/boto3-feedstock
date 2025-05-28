@@ -1,5 +1,5 @@
-{% set version = "1.38.24" %}
-{% set hash = "abdb8c760543e9c22026320e62e2934762b0c4ac4f42e8ea2a756f2d489b3135" %}
+{% set version = "1.38.25" %}
+{% set hash = "85c1556a110896f68de8573a9b4757c81071448dbf6ffc1074941bfc8a43195e" %}
 
 package:
   name: boto3
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - botocore >=1.38.24,<1.39.0
+    - botocore >=1.38.25,<1.39.0
     - jmespath >=0.7.1,<2.0.0
     - s3transfer >=0.13.0,<0.14.0
 
