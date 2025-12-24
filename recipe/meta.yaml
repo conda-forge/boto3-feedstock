@@ -1,12 +1,12 @@
-{% set version = "1.42.15" %}
-{% set hash = "d673c9b6bb9e293e028e354de6701351f1881e3fbeb25d739dd33c4940a30929" %}
+{% set version = "1.42.16" %}
+{% set hash = "811391611db88c8a061f6e6fabbd7ca784ad9de04490a879f091cbaa9de7de74" %}
 
 package:
   name: boto3
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/b/boto3/boto3-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/98/37/22c82e9d314d769a6eaf600ce5e08357927b5c6a614bfbeb1e7b7e7aa036/boto3-{{ version }}.tar.gz
   sha256: {{ hash }}
 
 build:
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - botocore >=1.42.15,<1.43.0
+    - botocore >=1.42.16,<1.43.0
     - jmespath >=0.7.1,<2.0.0
     - s3transfer >=0.16.0,<0.17.0
 
