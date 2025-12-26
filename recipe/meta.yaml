@@ -1,5 +1,5 @@
-{% set version = "1.42.16" %}
-{% set hash = "811391611db88c8a061f6e6fabbd7ca784ad9de04490a879f091cbaa9de7de74" %}
+{% set version = "1.42.17" %}
+{% set hash = "8a2e345e96d5ceba755c55539c93f99705f403fbfdeef2e838eabdc56750828b" %}
 
 package:
   name: boto3
@@ -10,7 +10,7 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - botocore >=1.42.16,<1.43.0
+    - botocore >=1.42.17,<1.43.0
     - jmespath >=0.7.1,<2.0.0
     - s3transfer >=0.16.0,<0.17.0
 
