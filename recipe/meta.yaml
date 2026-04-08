@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/31/9d/a9a7b5a9351e3ff0baae01136f71ba6fc4652fe0dc2da3b0a8ebdfc1be44/boto3-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/b/boto3/boto3-{{ version }}.tar.gz
   sha256: {{ hash }}
 
 build:
